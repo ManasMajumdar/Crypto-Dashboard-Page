@@ -1,0 +1,22 @@
+body{
+    background-color:#dff1f3;
+}
+
+.nav-link:hover{
+    background-color:#3089d3 !important;
+}
+
+.nav-link .fa{
+    transition:all 1s;
+}
+
+.d-flex{
+    width: 250px;
+}
+.bi{
+    width:40px;
+    height: 32px;
+}
+.img{
+    width:50px
+}
