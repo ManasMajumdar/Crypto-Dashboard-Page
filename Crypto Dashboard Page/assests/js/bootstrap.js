@@ -63,7 +63,6 @@
         if (i !== t) {
           const e = t.closest("summary");
           if (e && e.parentNode !== i) return !1;
-          if (null === e) return !1;
         }
         return e;
       },
