@@ -6,7 +6,7 @@
 !(function (t, e) {
     "object" == typeof exports && "undefined" != typeof module
       ? (module.exports = e())
-      : "function" == typeof define && define.amd
+      : "function" == typeof define && define.a
         ? define(e)
         : ((t =
           "undefined" != typeof globalThis ? globalThis : t || self).bootstrap =
@@ -4178,4 +4178,5 @@
     );
   });
   //# sourceMappingURL=bootstrap.bundle.min.js.map
+
   
