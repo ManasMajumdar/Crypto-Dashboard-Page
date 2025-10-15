@@ -6,7 +6,7 @@
 !(function (t, e) {
     "object" == typeof exports && "undefined" != typeof module
       ? (module.exports = e())
-      : "function" == typeof define && define.amd
+      : "function" == typeof define && define.a
         ? define(e)
         : ((t =
           "undefined" != typeof globalThis ? globalThis : t || self).bootstrap =
@@ -63,7 +63,6 @@
         if (i !== t) {
           const e = t.closest("summary");
           if (e && e.parentNode !== i) return !1;
-          if (null === e) return !1;
         }
         return e;
       },
@@ -4178,4 +4177,5 @@
     );
   });
   //# sourceMappingURL=bootstrap.bundle.min.js.map
+
   
